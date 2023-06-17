@@ -1,0 +1,17 @@
+[Unit]
+Description=Mud Bucket
+After=network.target
+
+[Service]
+Environment="PORT=8483"
+Environment="STATIC_DIR=/path/to/static"
+Environment="TOKEN_VALUE=token123"
+Environment="CERT_DIR=/path/to/certs"
+ExecStart=/path/to/your/mudbucket --secure
+WorkingDirectory=/path/to/your/application/directory
+User=youruser
+Group=yourgroup
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
