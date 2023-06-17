@@ -69,6 +69,10 @@ Anybody desperate to use a public computer connected to a free printer. This is 
 
 Do not use this as a standing server. I did not mitigate enough likely security risks to recommend this for a normal production or even personal persistent use.
 
+## Roadmap
+
+I don't explicitly have plans to work on this, but I very well might create a way to log in and manage tokens so that you don't need to have tokens configured at launch. I might also add actual security features. This would likely largely be accomplished by using an external OIDC provider.
+
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License -- see [LICENSE.txt](./LICENSE.txt) file for details.
